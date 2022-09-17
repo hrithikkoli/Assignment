@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/cardView"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    android:layout_marginBottom="2dp"
+
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/dark_grey"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_marginStart="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="James" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_marginStart="5dp"
+            android:textSize="25sp"
+            android:layout_height="wrap_content"
+            android:text="27" />
+
+        <TextView
+            android:id="@+id/salary"
+            android:layout_width="match_parent"
+            android:layout_marginStart="5dp"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="170000" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
